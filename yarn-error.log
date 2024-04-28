@@ -1,0 +1,59 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Ricky PC\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @tanstack/react-query
+
+PATH: 
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\libnvvp;C:\Program Files\Eclipse Adoptium\jdk-11.0.17.8-hotspot\bin;C:\Program Files\Oculus\Support\oculus-runtime;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Tencent\??web?????\dll;C:\Program Files\Go\bin;C:\Program Files\Docker\Docker\resources\bin;C:\MinGW\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Users\Ricky PC\AppData\Local\Programs\Python\Python310\python.ex;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\cloudflared\;C:\Program Files\nodejs\;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.3.0\;C:\Program Files\NVIDIA\CUDNN\v8.9.2.26\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8;C:\Users\Ricky PC\AppData\Local\pnpm;C:\Users\Ricky PC\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Ricky PC\AppData\Local\Programs\Python\Python310\;C:\Users\Ricky PC\.cargo\bin;C:\Users\Ricky PC\AppData\Local\Microsoft\WindowsApps;C:\Users\Ricky PC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\OpenSSL-Win64\bin;C:\Users\Ricky PC\AppData\Local\Android\Sdk\platform-tools;C:\Users\Ricky PC\go\bin;C:\Users\Ricky PC\AppData\Roaming\npm;C:\Users\Ricky PC\.bun\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.19.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'G:\expo-tailwind\node_modules\lightningcss-win32-x64-msvc\lightningcss.win32-x64-msvc.node'
+
+npm manifest: 
+  {
+    "name": "expo-tailwind",
+    "version": "1.0.0",
+    "main": "expo-router/entry",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web"
+    },
+    "dependencies": {
+      "expo": "^50.0.1",
+      "expo-constants": "~15.4.5",
+      "expo-linking": "~6.2.2",
+      "expo-router": "~3.4.8",
+      "expo-splash-screen": "~0.26.4",
+      "expo-status-bar": "~1.11.1",
+      "nativewind": "^4.0.1",
+      "react": "18.2.0",
+      "react-dom": "18.2.0",
+      "react-native": "0.73.5",
+      "react-native-reanimated": "~3.6.2",
+      "react-native-safe-area-context": "4.8.2",
+      "react-native-screens": "~3.29.0",
+      "react-native-web": "~0.19.10",
+      "tailwindcss": "^3.4.0"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.20.0",
+      "@types/react": "~18.2.45",
+      "typescript": "^5.3.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
